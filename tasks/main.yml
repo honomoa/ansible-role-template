@@ -1,0 +1,13 @@
+---
+
+- name: Deploy
+  include: deploy.yml
+  tags:
+    - deploy
+    - deploy-template
+
+- name: Provision
+  include: provision.yml
+  tags:
+    - provision
+    - provision-template

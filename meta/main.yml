@@ -1,0 +1,59 @@
+---
+
+dependencies: []
+
+galaxy_info:
+  role_name: template
+  author: honomoa
+  description: Description of introduction this role.
+  company: "Moa"
+  license: "license (CC BY-SA 3.0)"
+  min_ansible_version: 2.4
+  platforms:
+  - name: Debian
+    versions:
+    - squeeze
+    - wheezy
+    - jessie
+    - stretch
+    - buster
+  - name: Ubuntu
+    versions:
+    - precise
+    - trusty
+    - xenial
+    - bionic
+  - name: CentOS
+    versions:
+    - 5
+    - 6
+    - 7
+  - name: Fedora
+    versions:
+    - 15
+    - 26
+    - 27
+    - 28
+  - name: EL
+    versions:
+    - 5
+    - 6
+    - 7
+  - name: FreeBSD
+    versions:
+    - 9.3
+    - 10.0
+    - 10.1
+    - 10.2
+    - 10.3
+  galaxy_tags:
+    - system
+    - development
+    - networking
+    - cloud
+    - database
+    - monitoring
+    - packaging
+    - apb
+    - security
+    - web
